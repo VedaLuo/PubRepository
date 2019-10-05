@@ -18,7 +18,7 @@ export default class SysTable extends Vue {
 
 
   private mounted() {
-      this.txt="111";
+      this.txt="init111";
   }
   public doIt(){
     this.txt="333";
