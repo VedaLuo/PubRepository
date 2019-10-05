@@ -98,7 +98,7 @@ public class Main {
 	    Calendar cal=Calendar.getInstance();
 	    String date1=dateFormat.format(cal.getTime());
 	    long time=cal.getTimeInMillis();
-		System.out.println("Begin[001]--"+time+"--.........."+date1);
+		System.out.println("Begin[002]--"+time+"--.........."+date1);
 		
 		int NCPU = Runtime.getRuntime().availableProcessors();
 		System.out.println("cpu="+NCPU);

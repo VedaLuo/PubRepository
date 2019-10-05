@@ -21,6 +21,7 @@ public class User implements Serializable{
 	private String name;
 	private int    age;
 	private Date   date;
+	private String remark;
 	
     private Map map; //测试用  
     private List list; //测试用  
@@ -73,6 +74,12 @@ public class User implements Serializable{
 	}
 	public void setSet(Set set) {
 		this.set = set;
+	}
+	public String getRemark() {
+		return remark;
+	}
+	public void setRemark(String remark) {
+		this.remark = remark;
 	}
 	
 }
